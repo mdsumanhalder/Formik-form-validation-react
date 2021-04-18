@@ -62,14 +62,15 @@ export default function ContactForm() {
         onSubmit={onSubmit}
         >
         {formik =>(
-        <Form>
-            <ControlField
+        <Form className='contact-form'>
+           
+            <ControlField 
              control='input'
              type='text' 
              label='First name*'
              name='firstName'
             />
-                <ControlField
+                <ControlField 
              control='input'
              type='text' 
              label='Last name'

@@ -1,8 +1,37 @@
-.App {
-  display: flex;
-  justify-content: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+   background:#22304f;
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+}
+.contact-container {
+ display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.contact-form, .contact-info{
+  padding: .75rem;
+}
+/* ##### Contact Info Section  ##### */
+.contact-info{
+  flex:40%;
+  color: #fff!important;
+ font-size: 24px;
+
 }
 
+/* ##### Contact Form Section  ##### */
+.contact-form{
+  flex: 60%;
+  
+
+}
 label {
   font-weight: bold;
   display: flex;
@@ -13,7 +42,7 @@ input[type='text'],
 input[type='email'],
 textarea {
   display: block;
-  width: 400px;
+  max-width: 100%;
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
@@ -32,3 +61,4 @@ textarea {
 .error {
   color: red;
 }
+

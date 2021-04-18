@@ -1,9 +1,7 @@
 import React from 'react'
-import CountrySelector from './CountrySelector'
-
  const ContactInfo = () => {
     return (
-          <div className='Contact-des'>
+          <div className='contact-info'>
             <div className='media-email'>
                 <h1>Media enquiries:</h1>
             <a href='#'>press@modularbank.co</a>
@@ -27,7 +25,6 @@ import CountrySelector from './CountrySelector'
                </div>
 
             </div>
-            <CountrySelector/>
            
         </div>
     )
